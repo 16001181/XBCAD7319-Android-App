@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //make sure to change TestFragment() what ever fragment your working on but when your finished with your things please put it back to LoginFragment()
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-        fragmentTransaction.add(R.id.fragment_container, new TestFragment());
+        fragmentTransaction.add(R.id.fragment_container, new ProjectFragment());
         fragmentTransaction.commit();
     }
 }

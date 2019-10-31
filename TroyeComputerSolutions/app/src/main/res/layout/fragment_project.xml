@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProjectFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+       <Spinner
+           android:id="@+id/spProjectName"
+           android:layout_width="370dp"
+           android:layout_height="wrap_content"
+           android:background="@android:drawable/btn_dropdown"
+           android:spinnerMode="dropdown"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"/>
+
+       <TextView
+           android:id="@+id/textVproject"
+           android:layout_width="370dp"
+           android:layout_height="600dp"
+           android:text="All projects view here"
+           android:layout_marginTop="100dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginBottom="10dp"
+           />
+
+
+
+
+</FrameLayout>
